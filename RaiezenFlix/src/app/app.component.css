@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+.navbar .navbar-brand {
+    color: #32CD32;
+    font-weight: bold;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #e03f9d;
+}

@@ -1,0 +1,17 @@
+git config --global --replace-all user.name celiszin
+git config --global user.email teste153ovo@gmail.com
+
+Criar um Projeto:
+ng new RaiezenFlix
+
+Executar o Projeto:
+cd RaiezenFlix
+ng serve -o 
+
+Criar novos Componentes: 
+ng g c pages/home
+ng g c pages/search
+ng g c pages/details
+
+Criar um serviço:
+ng g s services/movieApi
