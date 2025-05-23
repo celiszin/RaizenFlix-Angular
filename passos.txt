@@ -6,6 +6,7 @@ ng new RaiezenFlix
 
 Executar o Projeto:
 cd RaiezenFlix
+npm i
 ng serve -o 
 
 Criar novos Componentes: 
