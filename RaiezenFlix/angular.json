@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "RaiezenFlix": {
+    "galloflix": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/raiezen-flix",
+            "outputPath": "dist/galloflix",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "RaiezenFlix:build:production"
+              "buildTarget": "galloflix:build:production"
             },
             "development": {
-              "buildTarget": "RaiezenFlix:build:development"
+              "buildTarget": "galloflix:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,6 +94,6 @@
     }
   },
   "cli": {
-    "analytics": "528b91ff-6e52-4483-a672-d3224f4edbf9"
+    "analytics": false
   }
 }
